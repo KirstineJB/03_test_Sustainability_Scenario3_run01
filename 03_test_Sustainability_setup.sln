@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_test_Sustainability_setup", "03_test_Sustainability_setup\03_test_Sustainability_setup.csproj", "{11A38018-4653-447F-BBEB-4B7D2BC9E937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A38018-4653-447F-BBEB-4B7D2BC9E937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A38018-4653-447F-BBEB-4B7D2BC9E937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A38018-4653-447F-BBEB-4B7D2BC9E937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A38018-4653-447F-BBEB-4B7D2BC9E937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AF576F-799F-4437-A653-D3719587BF5D}
+	EndGlobalSection
+EndGlobal
