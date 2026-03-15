@@ -4,53 +4,46 @@
 
     public static class TodoMockData
     {
-        public static List<TodoTask> Tasks { get; } = new()
+        public static List<TodoItem> Items { get; } = new()
         {
-            new TodoTask
+            new TodoItem
             {
                 Id = 1,
-                Title = "indkøbing",
-                TodoDetailId = 101
+                Title = "Shopping liste",
+                Description = "Æg, Smør,mel",
+                Status = "In Progress",
+                DueDate = new DateTime(2026, 3, 20),
+                Priority = "Høj",
+                Category = "Indkøb",
+                CreatedAt = new DateTime(2026, 3, 10),
+                UpdatedAt = new DateTime(2026, 3, 14),
+                AssignedTo = "Dennis"
             },
-            new TodoTask
+            new TodoItem
             {
                 Id = 2,
-                Title = "Lav noget",
-                TodoDetailId = 102
+                Title = "Fix hønsehuset",
+                Description = "Hønsehuset er gået i stykker. Stakkels hønsehus.",
+                Status = "Not Started",
+                DueDate = new DateTime(2026, 3, 22),
+                Priority = "Medium",
+                Category = "Have",
+                CreatedAt = new DateTime(2026, 3, 11),
+                UpdatedAt = new DateTime(2026, 3, 14),
+                AssignedTo = "Mikkel"
             },
-            new TodoTask
+            new TodoItem
             {
                 Id = 3,
-                Title = "Tag opvasken",
-                TodoDetailId = 103
-            }
-        };
-
-        public static List<TodoDetail> Details { get; } = new()
-        {
-            new TodoDetail
-            {
-                Id = 101,
-                Description = "Æg, skinke,brød",
-                Deadline = new DateTime(2026, 3, 20),
-                Priority = "Høj",
-                Status = "Done"
-            },
-            new TodoDetail
-            {
-                Id = 102,
-                Description = "Lang beskrivelse af hvad der skal laves",
-                Deadline = new DateTime(2026, 3, 22),
-                Priority = "Medium",
-                Status = "In Progress"
-            },
-            new TodoDetail
-            {
-                Id = 103,
-                Description = "Husk sæbe",
-                Deadline = new DateTime(2026, 3, 18),
+                Title = "Nyt tøj",
+                Description = "Køb nye T-shirts.",
+                Status = "Done",
+                DueDate = new DateTime(2026, 3, 18),
                 Priority = "Lav",
-                Status = "To do"
+                Category = "Indkøb",
+                CreatedAt = new DateTime(2026, 3, 9),
+                UpdatedAt = new DateTime(2026, 3, 13),
+                AssignedTo = "Mikkel"
             }
         };
     }
